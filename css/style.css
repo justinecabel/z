@@ -3,6 +3,14 @@
     -webkit-tap-highlight-color: transparent;
 }
 
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    overflow: hidden;
+}
+
 .poppins-regular {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -10,14 +18,11 @@
   }
 
 audio {
-    /* display: none; */
+    display: none;
 }
 
 button{
     transition: 0.25s;
-}
-
-body{
 }
 
 .head{
@@ -77,5 +82,29 @@ body{
 .chin button:active{
     border-radius: 24px;
 }
+
+.foot{
+    position: absolute;
+    bottom: 0;
+}
+
+#playing{
+    padding: 10px;
+    background-color: #6b6b6b;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 24px;
+    padding: 5px 20px;
+}
+
+#artwork{
+    width: 50px;
+    height: 30px;
+    border: solid;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 
 
